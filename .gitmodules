@@ -1,0 +1,15 @@
+[submodule "user-service"]
+	path = user-service
+	url = git@ssh.dev.azure.com:v3/cleverpine/CP%20Internship%2007-2023/user-service
+[submodule "transactions-service"]
+	path = transactions-service
+	url = git@ssh.dev.azure.com:v3/cleverpine/CP%20Internship%2007-2023/transactions-service
+[submodule "currency-service"]
+	path = currency-service
+	url = git@ssh.dev.azure.com:v3/cleverpine/CP%20Internship%2007-2023/currency-service
+[submodule "currency-ui"]
+	path = currency-ui
+	url = git@ssh.dev.azure.com:v3/cleverpine/CP%20Internship%2007-2023/currency-ui
+[submodule "platform-ui"]
+	path = platform-ui
+	url = git@ssh.dev.azure.com:v3/cleverpine/CP%20Internship%2007-2023/platform-ui

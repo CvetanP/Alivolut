@@ -1,0 +1,27 @@
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  margin: 60px 65px 0px 0px;
+}
+
+.exchange-rate-btn,
+.new-transaction-btn {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.46px;
+  color: rgba(255, 255, 255, 1);
+  padding: 8px 22px;
+  border-radius: 15px;
+  border: 1px solid var(--white-color, #FFF);
+  background-color: rgb(29, 145, 118);
+  cursor: pointer;
+}
+
+.exchange-rate-btn:hover,
+.new-transaction-btn:hover {
+  background-color: rgba(29, 145, 118, 0.801);
+  transition: 0.2s;
+}

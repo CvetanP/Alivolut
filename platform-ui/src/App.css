@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    /* Colors */
+    --cyan: #48AC98;
+    --light-blue: #BAF2E9;
+    --dark-gray: #525252;
+    --middle-gray: #6E6E6E;
+    --lighter-gray: #D4D4D4;
+    --green: #16D31E;
+    --red: #FF0033;
+    --black: #000000;
+    --white: #FFFFFF;
+    --dark:#1D1F22;
+    /* Box-shadow */
+    --card-shadow: 5px 5px 15px var(--black);
+    --shadow: 1px 2px 10px var(--middle-gray) !important;
+    
+}
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+li{
+    list-style: none;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+a{
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: #F3F4F6;
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+    width: 0.6rem;
+    background: hsl(0, 0%, 74%);
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 17%);
+    border-radius: 3px;
+  }

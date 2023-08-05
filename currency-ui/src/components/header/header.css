@@ -1,0 +1,40 @@
+.alivolut-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 54px;
+  background: #E9E9E9;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.20), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  padding-top: 15px;
+}
+
+.alivolut-logo-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  height: 50px;
+  margin-left: 120px;
+}
+
+.alivolut-logo {
+  height: 50px;
+  margin-left: auto;
+}
+
+.alivolut-logo-btn {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.logout-icon {
+  height: 36px;
+  margin-right: 64px;
+  margin-bottom: 12px;
+}
+
+.logout-icon-btn {
+  border: none;
+  background-color: #E9E9E9;
+  cursor: pointer;
+}

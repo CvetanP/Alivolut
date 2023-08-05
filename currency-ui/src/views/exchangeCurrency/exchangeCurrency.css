@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.whiteBox {
+  width: 652px;
+  height: 577px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.10);
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.text {
+  color: #000;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  font-family: R;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  padding-top: 90px;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 26px;
+  margin-right: 26px;
+  padding-top: 50px;
+}
+
+.border {
+  height: 81px;
+  width: 235px;
+  border-radius: 20px;
+  background: var(--white-color, #FFF);
+  box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.10);
+  display: flex;
+  justify-content: space-between;
+}
+
+.swap-currencies-img {
+  height: 60px;
+  margin-top: 15px;
+}
+
+.swap-currencies-btn {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.exchangeButton {
+  height: 60px;
+  width: 188px;
+  background: #48AC98;
+  border-radius: 20px;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 110px;
+  cursor: pointer;
+}
+
+.exchangeButton:hover {
+  background: #48ac98ae;
+}
+
+.amountField {
+  font-size: 300px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.currency-menu-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.currency-menu-container select {
+  width: 70px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  border: none;
+  background-color: white;
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.inputStyle {
+  font-size: 20px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 20px;
+  outline: none;
+}
+
+.exchangeButton:hover {
+  background-color: rgb(96, 190, 172);
+  transition: 0.2s;
+}
+
+.error-message {
+  color: red;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}

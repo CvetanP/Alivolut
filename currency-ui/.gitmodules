@@ -1,0 +1,3 @@
+[submodule "currency-api"]
+	path = currency-api
+	url = git@ssh.dev.azure.com:v3/cleverpine/CP%20Internship%2007-2023/currency-api

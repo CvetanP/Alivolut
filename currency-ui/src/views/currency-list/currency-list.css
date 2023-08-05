@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(243, 244, 246);
+}
+
+.currency-list-main {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 65px 0px 65px;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.currency-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 33px;
+  margin: 0px 30px;
+}
